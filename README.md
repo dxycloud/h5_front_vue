@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+TODO: icon
 ## Build Setup
 
 ``` bash
