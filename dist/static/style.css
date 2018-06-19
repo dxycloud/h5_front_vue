@@ -1,0 +1,31 @@
+html{font-size:100px;}
+body{font-size:0.14rem;padding:0;margin:0;background:#F3F3F3;}
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {margin: 0;padding: 0;}
+ul,ol {list-style: none;}
+.clearfix {zoom: 1;}
+.clearfix:after {content: ".";width: 0;height: 0;visibility: hidden;display: block;clear: both;overflow:hidden;}
+.l {float: left}
+.r {float: right}
+h2.title{background:#fff;height:0.44rem;line-height:0.44rem;}
+h2 div{width:50%;text-align: center;}
+select{width:auto;padding: 0 2%;margin: 0;border:none;outline: none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+select option{text-align: center;width:100%;}
+
+.title .sresel,.title .sortsel{font-size:0.1rem;color:#666;}
+.tip{padding:0.06rem 0 0.06rem 0.1rem;background:#f3f3f3;font-size:0.1rem;color:#17a8fc;}
+.loanlist li{background:#fff;padding:0.2rem 0 0.12rem 0.1rem;position: relative;margin-bottom:0.1rem;}
+.loanlist li .loanbox{width:77%;}
+.loanlist li .loan{width:0.55rem;height:0.55rem;margin-right:0.1rem;}
+.loanlist li h3{font-size:0.11rem;font-weight: normal;color:#333;}
+.loanlist li h3 em{font-size:0.1rem;display:inline-block;padding:0.02rem 0.04rem;border:0.01rem solid #17A8FC;text-align: center;line-height:0.1rem;color:#17A8FC;margin-left:0.1rem;font-style:normal;}
+.loanlist li p{font-size:0.1rem;color:#666;}
+.loanlist li p.msgp{margin:0.04rem 0 0.06rem 0;padding-right:0.05rem;min-height:0.2rem;}
+.loanlist li p .listback{width:0.08rem;height:0.13rem;}
+.loanlist li p.nump{padding-right:0.07rem;}
+.loanlist li p b{color:#fc6508;font-weight:normal;}
+.loanlist li .icon{width:0.55rem;height:0.2rem;color:#fff;font-size:0.1rem;font-style:normal;text-align: center;line-height:0.2rem;display:block;position:absolute;top:0;right:0.2rem;}
+.loanlist li .icon1{background:url(../img/listbg1.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon2{background:url(../img/listbg2.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon3{background:url(../img/listbg3.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon4{background:url(../img/listbg4.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon5{background:url(../img/listbg5.png) no-repeat;background-size:100% 100%;}
