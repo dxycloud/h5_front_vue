@@ -62,7 +62,7 @@ export default {
   },
   created: async function(event) {
     try {
-      let res = await axios.get("http://localhost:3000/api/1.0/shop/findAll");
+      let res = await axios.get("https://serious-playing.com.cn:3000/api/1.0/shop/findAll");
       if (res.data.code == 0) {
         this.$data.shops = res.data.data;
         this.$data.default_sorted_shops = res.data.data;

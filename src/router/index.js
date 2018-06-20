@@ -5,9 +5,10 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
+  base: '/loadlist/',
   routes: [
     {
-      path: '/loadlist/',
+      path: '/',
       name: 'HelloWorld',
       component: HelloWorld
     }
