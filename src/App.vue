@@ -110,7 +110,7 @@ export default {
           this.$data.shops = this.$data.default_sorted_shops;
         } else {
           let res = await axios.get(
-            "http://localhost:3000/api/1.0/shop/findAll"
+            "https://serious-playing.com.cn:3000/api/1.0/shop/findAll"
           );
           if (res.data.code == 0) {
             this.$data.shops = res.data.data;
