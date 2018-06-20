@@ -1,4 +1,5 @@
 <template>
+
   <body>
     <h2 class="clearfix title">
       <div class="l">
@@ -18,6 +19,7 @@
         </select>
       </div>
     </h2>
+    <p class="tip">据大数据统计，同时申请4家，下款成功率接近99%</p>
 
     <ul class="loanlist" v-for="shop in shops" :key="shop.name">
       <li class="clearfix">
@@ -62,7 +64,9 @@ export default {
   },
   created: async function(event) {
     try {
-      let res = await axios.get("https://serious-playing.com.cn:3000/api/1.0/shop/findAll");
+      let res = await axios.get(
+        "https://serious-playing.com.cn:3000/api/1.0/shop/findAll"
+      );
       if (res.data.code == 0) {
         this.$data.shops = res.data.data;
         this.$data.default_sorted_shops = res.data.data;
@@ -92,7 +96,9 @@ export default {
       } else {
         let tmp_shops = [];
         for (let i = 0; i < this.$data.default_sorted_shops.length; i++) {
-          if (this.$data.default_sorted_shops[i].tags.includes(this.$data.filter)) {
+          if (
+            this.$data.default_sorted_shops[i].tags.includes(this.$data.filter)
+          ) {
             tmp_shops.push(this.$data.default_sorted_shops[i]);
           }
         }
