@@ -33,14 +33,16 @@
               <img :src="listback_png" class="r listback">
             </p>
             <p class="clearfix nump">
-              <span class="l">
-                <b></b>
+              <span class="l">额度范围：
+                <b>{{ shop.loan_range[0] }} - {{ shop.loan_range[1] }}</b>
               </span>
               <span class="r">
-                <b> {{ shop.user_n }} </b>人</span>
+                <b> {{ shop.user_n }} </b>人成功申请</span>
             </p>
           </div>
-          <i class="icon icon1"> {{shop.feature}} </i>
+          <i v-if="shop.feature == ''"></i>
+          <i v-else-if="shop.feature == '人气必选'" class="icon icon1"> {{ shop.feature }}</i>
+          <i v-else-if="shop.feature == '不查征信'" class="icon icon2"> {{ shop.feature }}</i>
         </a>
       </li>
     </ul>

@@ -24,8 +24,8 @@ select option{text-align: center;width:100%;}
 .loanlist li p.nump{padding-right:0.07rem;}
 .loanlist li p b{color:#fc6508;font-weight:normal;}
 .loanlist li .icon{width:0.55rem;height:0.2rem;color:#fff;font-size:0.1rem;font-style:normal;text-align: center;line-height:0.2rem;display:block;position:absolute;top:0;right:0.2rem;}
-.loanlist li .icon1{background:url(../img/listbg1.png) no-repeat;background-size:100% 100%;}
-.loanlist li .icon2{background:url(../img/listbg2.png) no-repeat;background-size:100% 100%;}
-.loanlist li .icon3{background:url(../img/listbg3.png) no-repeat;background-size:100% 100%;}
-.loanlist li .icon4{background:url(../img/listbg4.png) no-repeat;background-size:100% 100%;}
-.loanlist li .icon5{background:url(../img/listbg5.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon1{background:url(./listbg1.png) no-repeat;background-size:100% 100%;}
+.loanlist li .icon2{background:url(./listbg2.png) no-repeat;background-size:100% 100%;}
+/* .loanlist li .icon3{background:url(../img/listbg3.png) no-repeat;background-size:100% 100%;} */
+/* .loanlist li .icon4{background:url(../img/listbg4.png) no-repeat;background-size:100% 100%;} */
+/* .loanlist li .icon5{background:url(../img/listbg5.png) no-repeat;background-size:100% 100%;} */
