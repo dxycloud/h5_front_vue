@@ -63,8 +63,10 @@ export default {
         "https://serious-playing.com.cn:3000/api/1.0/shop/findAll"
       );
       if (res.data.code == 0) {
-        this.$data.shops = res.data.data;
-        this.$data.default_sorted_shops = res.data.data;
+        this.$data.shops = res.data.data.sort((shopa, shopb) => {
+          return shopb.weight - shopa.weight;
+        });
+        this.$data.default_sorted_shops = this.$data.shops;
         // 获取所有的tag
         let all_tags = [];
         for (let i = 0; i < this.$data.shops.length; i++) {
