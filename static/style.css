@@ -7,12 +7,12 @@ ul,ol {list-style: none;}
 .l {float: left}
 .r {float: right}
 h2.title{background:#fff;height:0.44rem;line-height:0.44rem;}
-h2 div{width:50%;text-align: center;}
+/* h2 div{width:50%;text-align: center;} */
 select{width:auto;padding: 0 2%;margin: 0;border:none;outline: none; -webkit-tap-highlight-color: rgba(0,0,0,0);}
 select option{text-align: center;width:100%;}
 
 .title .sresel,.title .sortsel{font-size:0.1rem;color:#666;}
-.tip{padding:0.06rem 0 0.06rem 0.1rem;background:#f3f3f3;font-size:0.1rem;color:#17a8fc;}
+.tip{padding:0.06rem 0 0.06rem 0.1rem;background:#f3f3f3;font-size:0.13rem;color:#fc1717;font-weight: bolder;}
 .loanlist li{background:#fff;padding:0.2rem 0 0.12rem 0.1rem;position: relative;margin-bottom:0.1rem;}
 .loanlist li .loanbox{width:77%;}
 .loanlist li .loan{width:0.55rem;height:0.55rem;margin-right:0.1rem;}

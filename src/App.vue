@@ -2,7 +2,7 @@
 
   <body>
     <h2 class="clearfix title">
-      <div class="l">
+      <div>
         <span class="sresel">筛选</span>
         <select class="sresel typeSel" v-model="filter" v-on:change="changesreid">
           <option>全部</option>
@@ -11,15 +11,8 @@
           </option>
         </select>
       </div>
-      <div class="r">
-        <span class="sortsel">排序</span>
-        <select class="sortsel resortSel" v-model="sort_option" v-on:change="changesortid">
-          <option>推荐排序</option>
-          <option>用户数最多</option>
-        </select>
-      </div>
     </h2>
-    <p class="tip">据大数据统计，同时申请4家，下款成功率接近99%</p>
+    <p class="tip">据大数据统计，同时申请5家，下款成功率接近99%</p>
 
     <ul class="loanlist" v-for="shop in shops" :key="shop.name">
       <li class="clearfix">
